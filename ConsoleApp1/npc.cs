@@ -6,14 +6,13 @@ using System.Threading.Tasks;
 
 namespace JanusGoat.Scratch.ConsoleApp1 {
 
-  class Program {
-
-    static void Main(string[] args) {
-      npc n1 = new npc();
-      n1.Speak();
-
-      Console.ReadKey();
+  public class npc {
+    public npc() {
+      Console.WriteLine("NPC constructor");
     }
 
+    public void Speak() {
+      Console.WriteLine("NPC Speaking");    
+    } 
   }
 }
