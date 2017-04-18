@@ -14,5 +14,10 @@ namespace JanusGoat.Scratch.ConsoleApp1 {
     public void Speak() {
       Console.WriteLine("NPC Speaking");    
     } 
+
+    public void trade() {
+      Console.WriteLine("NPC Speaking");    
+    } 
+
   }
 }
