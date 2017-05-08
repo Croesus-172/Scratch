@@ -11,7 +11,8 @@ namespace JanusGoat.Scratch.ConsoleApp1 {
     static void Main(string[] args) {
       npc n1 = new npc();
       n1.Speak();
-      n1.trade();
+      n1.Trade();
+      n1.Attack();
 
       Console.ReadKey();
     }
